@@ -7,7 +7,7 @@ function ProductDetail() {
   const [product, setProduct] = useState(null);
 
   useEffect(() => {
-    axios.get(`https://toko-online-backend-zeta.vercel.app/api/products/${id}`)
+    axios.get(`https://toko-online-backend-jvaif34so-apip3.vercel.app/api/products/${id}`)
       .then(response => setProduct(response.data))
       .catch(error => console.error("Gagal mengambil detail produk:", error));
   }, [id]);

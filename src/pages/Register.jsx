@@ -12,7 +12,7 @@ function Register() {
   const handleRegister = async (e) => {
     e.preventDefault();
     try {
-      await axios.post('https://toko-online-backend-zeta.vercel.app/api/auth/register', { name, email, password });
+      await axios.post('https://toko-online-backend-jvaif34so-apip3.vercel.app/api/auth/register', { name, email, password });
       alert('Registrasi berhasil! Silakan login.');
       navigate('/login');
     } catch (err) {
