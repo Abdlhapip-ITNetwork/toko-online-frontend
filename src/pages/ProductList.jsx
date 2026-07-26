@@ -6,7 +6,7 @@ function ProductList() {
   const [products, setProducts] = useState([]);
 
   useEffect(() => {
-    axios.get('http://localhost:5000/api/products')
+    axios.get('https://toko-online-backend-zeta.vercel.app/api/products')
       .then(response => setProducts(response.data))
       .catch(error => console.error("Gagal mengambil data produk:", error));
   }, []);
