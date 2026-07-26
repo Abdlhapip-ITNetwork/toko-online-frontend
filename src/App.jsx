@@ -21,7 +21,6 @@ function App() {
     <Router>
       <div className="app-container">
         <nav className="navbar">
-          <h2>Toko Online</h2>
           <div className="nav-links">
             <Link to="/">Beranda</Link>
             <Link to="/products">Daftar Produk</Link>
